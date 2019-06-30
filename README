@@ -1,0 +1,41 @@
+Note:
+This project is a individual project. Player can play this simple
+game on a Linux(Debian or based Debian) machine. Right now, player
+have three chances every time. Player can control a plane to shoot 
+enemys' planes. It is easy and not very challenge game. This game 
+is called Plane Master.
+
+-------------------------------------------------------------------------------
+
+Language:
+This project is written in C++, and I used SDL2 lib.
+
+-------------------------------------------------------------------------------
+
+Build Game:
+1. This is required SDL2 installed on the machine
+2. Go to the project directory
+3. make
+
+-------------------------------------------------------------------------------
+
+Run game:
+
+1. Go to the project directory
+2. ./game.exe
+
+-------------------------------------------------------------------------------
+
+Clean Binary Files:
+
+1. Go to the project directory
+2. make clean
+
+-------------------------------------------------------------------------------
+
+Play:
+Push 'w' go up
+push 's' go down
+push 'a' go left
+push 'd' go right
+push 'space' to shoot

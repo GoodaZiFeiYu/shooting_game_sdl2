@@ -1,0 +1,10 @@
+g++ -c -std=c++14 -g -Wall player.cpp player.hpp `pkg-config --cflags --libs sdl2`
+g++ -c -std=c++14 -g -Wall enemy.cpp enemy.hpp `pkg-config --cflags --libs sdl2`
+g++ -c -std=c++14 -g -Wall main.cpp player.hpp enemy.hpp bullet.hpp `pkg-config --cflags --libs sdl2`
+g++ -c -std=c++14 -g -Wall bullet.cpp bullet.hpp `pkg-config --cflags --libs sdl2`
+
+g++ -o test.exe main.o player.o enemy.o bullet.o -lm `pkg-config --cflags --libs sdl2`
+
+
+
+
